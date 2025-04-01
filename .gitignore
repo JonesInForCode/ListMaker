@@ -1,0 +1,81 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Build directories
+dist/
+build/
+out/
+release/
+
+# Electron
+*.asar
+*.asar.unpacked
+
+# React
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage directory used by testing frameworks
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.pid
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.log
+*.lock
+*.gz
+*.zip
+*.tar
+*.tgz
+*.rar
+*.7z
+*.bak
+*.swp
+*.swo
+*.tmp
+*.pid
+*.seed
+*.pid.lock
+*.pid.lock.lock
+*.pid.lock.lock.lock
