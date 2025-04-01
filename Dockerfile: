@@ -1,11 +1,11 @@
-FROM node:16
+FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14
 
-# Install dependencies
+# Install xvfb and other dependencies
 RUN apt-get update && \
     apt-get install -y xvfb libgtk-3-0 libx11-xcb1 libxtst6 libxss1 libnss3 libasound2
 
 # Set working directory
-WORKDIR /app
+WORKDIR /workspace
 
 # Copy project files
 COPY . .
